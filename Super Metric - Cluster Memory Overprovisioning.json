@@ -1,0 +1,1 @@
+{"19de2e51-7428-459e-bef9-a2f2068f9bf5":{"resourceKinds":[{"resourceKindKey":"ClusterComputeResource","adapterKindKey":"VMWARE"}],"modificationTime":1575553754030,"name":"Cluster Memory Overprovisioning %","formula":"${this, metric=mem|memory_allocated_on_all_vms}/${this, metric=mem|host_provisioned}*100","description":""}}
